@@ -1,0 +1,32 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.pylonproducts.wifiwizard": {
+            "PACKAGE_NAME": "test.cordova"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "test.cordova"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "test.cordova"
+        },
+        "phonegap-facebook-plugin": {
+            "APP_ID": "614052598745286",
+            "APP_NAME": "Smart Salon",
+            "PACKAGE_NAME": "test.cordova"
+        },
+        "cordova-plugin-geolocation": {
+            "PACKAGE_NAME": "test.cordova"
+        },
+        "cordova-plugin-spinner-dialog": {
+            "PACKAGE_NAME": "test.cordova"
+        }
+    },
+    "dependent_plugins": {}
+}

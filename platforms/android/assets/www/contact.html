@@ -1,0 +1,125 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Spasol a Beauty and Spa Category Flat Bootstrap Responsive Website Template | Contact :: w3layouts</title>
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Spasol Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<link href="css/bootstrapS.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="cordova.js"></script>    
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+	<!-- start-smoth-scrolling -->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+	<!-- start-smoth-scrolling -->
+</head>
+<body>
+<!-- banner -->
+<div class="banner page-head">
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<h1>
+					<a class="link link--yaku" href="index.html">
+						<span>A</span><span>l</span><span>i</span><span>a</span></br><span>C</span><span>o</span><span>i</span><span>f</span>
+					</a>
+				</h1>
+			</div>
+			<div class="navigation">
+				<span class="menu"><img src="img/menu.png" alt=""/></span>
+				<ul class="nav1">
+					<li><a class="hvr-overline-from-center button2" href="treatments.html">Treatments</a></li>
+					<li><a class="hvr-overline-from-center button2" href="contact.html">Contact</a></li>
+					<li><a class="hvr-overline-from-center button2" href="about.html">About</a></li>
+					</ul>
+				<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+			</div>
+			<div class="search">
+				<form>
+					<input type="search" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+					<input type="submit" value=" ">
+				</form>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+</div>
+<!-- //banner -->
+<!--contact-->
+<div class="contact">
+	<div class="container">
+		<h3 class="tittle-one">View On Map</h3>
+		<div class="map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d2482.432383990807!2d0.028213999961443994!3d51.52362882484525!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1423469959819"></iframe>
+		</div>
+		<div class="contact-form">
+			<h3 class="tittle-one">Contact Form</h3>
+			<form>
+				<input type="text" placeholder="Name">
+				<input type="text" placeholder="Email">
+				<input type="text" placeholder="Subject">
+				<div class="clearfix"> </div>
+				<textarea placeholder="Message"></textarea>
+				<input type="submit" value="SEND">
+			</form>
+		</div>
+	</div>
+</div>
+<!--//contact-->
+<!-- footer -->
+
+	<!-- //footer -->
+<!-- copy right -->
+<!-- //copy right -->
+<!-- for bootstrap working -->
+	<script src="js/bootstrap.js"></script>
+<!-- //for bootstrap working -->
+<!-- smooth scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		/*
+			var defaults = {
+			containerID: 'toTop', // fading element id
+			containerHoverID: 'toTopHover', // fading element hover id
+			scrollSpeed: 1200,
+			easingType: 'linear' 
+			};
+		*/								
+		$().UItoTop({ easingType: 'easeOutQuart' });
+		});
+	</script>
+	<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!-- //smooth scrolling -->
+</body>
+</html>
